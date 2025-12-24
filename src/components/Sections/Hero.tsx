@@ -9,17 +9,17 @@ export default function Hero() {
             <img src={heroBg} alt="" className={styles.bg} />
             <div className={`container ${styles.content}`}>
                 <div className={styles.text}>
-                    <span className={styles.eyebrow}>Holistic Nutritionist</span>
+                    <span className={styles.eyebrow}>Холистический Нутрициолог</span>
                     <h1 className={styles.title}>
-                        Nourish Your Body,<br />
-                        Heal Your Life.
+                        Питайте свое тело,<br />
+                        Исцеляйте свою жизнь.
                     </h1>
                     <p className={styles.subtitle}>
-                        Personalized nutrition plans backed by science and designed for your real life. Let's build a healthier you, together.
+                        Персонализированные планы питания, основанные на науке и созданные для вашей реальной жизни. Давайте вместе создадим более здоровую версию вас.
                     </p>
                     <div className={styles.actions}>
-                        <a href="#contact" className="btn btn-primary">Start Your Journey</a>
-                        <a href="#services" className="btn btn-outline" style={{ border: '2px solid var(--color-primary)', color: 'var(--color-primary)' }}>View Programs</a>
+                        <a href="#contact" className="btn btn-primary">Начать путь</a>
+                        <a href="#services" className="btn btn-outline" style={{ border: '2px solid var(--color-primary)', color: 'var(--color-primary)' }}>Посмотреть программы</a>
                     </div>
                 </div>
                 <div className={styles.imageWrapper}>

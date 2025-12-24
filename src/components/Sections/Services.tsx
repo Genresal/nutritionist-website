@@ -8,34 +8,34 @@ export default function Services() {
         <section className={`section ${styles.services}`} id="services">
             <div className={`container`}>
                 <div className={styles.header}>
-                    <h2>My Offerings</h2>
-                    <p className={styles.subtitle}>Tailored nutrition solutions to help you feel your best.</p>
+                    <h2>Мои услуги</h2>
+                    <p className={styles.subtitle}>Индивидуальные решения по питанию, чтобы вы чувствовали себя лучше всего.</p>
                 </div>
 
                 <div className={styles.grid}>
                     <Card
-                        title="1-on-1 Consultation"
+                        title="Индивидуальная консультация"
                         image={consultationImg}
-                        footer={<span className="btn btn-outline" style={{ color: 'var(--color-primary)', border: '1px solid var(--color-primary)' }}>Learn More</span>}
+                        footer={<span className="btn btn-outline" style={{ color: 'var(--color-primary)', border: '1px solid var(--color-primary)' }}>Узнать больше</span>}
                     >
-                        <p>Comprehensive health assessment and personalized strategy sessions to address your unique needs.</p>
+                        <p>Комплексная оценка здоровья и сессии по персонализированной стратегии для удовлетворения ваших уникальных потребностей.</p>
                     </Card>
 
                     <Card
-                        title="Personalized Meal Plans"
+                        title="Персонализированные планы питания"
                         image={mealPlanImg}
-                        footer={<span className="btn btn-outline" style={{ color: 'var(--color-primary)', border: '1px solid var(--color-primary)' }}>Learn More</span>}
+                        footer={<span className="btn btn-outline" style={{ color: 'var(--color-primary)', border: '1px solid var(--color-primary)' }}>Узнать больше</span>}
                     >
-                        <p>Delicious, easy-to-follow meal plans crafted for your taste preferences and health goals.</p>
+                        <p>Вкусные, простые в исполнении планы питания, созданные с учетом ваших вкусовых предпочтений и целей по здоровью.</p>
                     </Card>
 
                     <Card
-                        title="Kitchen Pantry Makeover"
+                        title="Разбор кухонной кладовой"
                         // Using placeholder for now or reuse one
                         image={consultationImg}
-                        footer={<span className="btn btn-outline" style={{ color: 'var(--color-primary)', border: '1px solid var(--color-primary)' }}>Learn More</span>}
+                        footer={<span className="btn btn-outline" style={{ color: 'var(--color-primary)', border: '1px solid var(--color-primary)' }}>Узнать больше</span>}
                     >
-                        <p>Let's clean up your kitchen environment to make healthy choices the easy choices.</p>
+                        <p>Давайте наведем порядок на вашей кухне, чтобы здоровый выбор стал легким выбором.</p>
                     </Card>
                 </div>
             </div>
