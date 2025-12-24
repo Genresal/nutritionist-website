@@ -1,4 +1,4 @@
-﻿import styles from './Footer.module.css';
+import styles from './Footer.module.css';
 
 export default function Footer() {
     return (
@@ -6,8 +6,8 @@ export default function Footer() {
             <div className="container">
                 <div className={styles.content}>
                     <div className={styles.brand}>
-                        <h3>Dr. Нутрициолог</h3>
-                        <p>&copy; {new Date().getFullYear()} Все права защищены.</p>
+                        <h3>Dr. Nutrition</h3>
+                        <p>&copy; {new Date().getFullYear()} All rights reserved.</p>
                     </div>
                     <div className={styles.socials}>
                         {/* Placeholders for social icons */}
